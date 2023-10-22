@@ -124,6 +124,9 @@ export PATH=$PATH:$JAVA_HOME/bin
 export PATH=$PATH:$MAVEN_HOME/bin
 export PATH=$PATH:/opt/node-16.19.1/bin
 export PATH=$PATH:/usr/local/texlive/2023/bin/x86_64-linux/
+export PATH=$PATH:~/.local/bin
 
 alias k="kubectl"
 alias tf="terraform"
+
+eval "$(zoxide init bash)"
